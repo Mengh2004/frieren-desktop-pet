@@ -1,0 +1,9 @@
+* text=auto
+
+# 二进制素材，禁止行尾转换
+*.png binary
+*.ico binary
+*.exe binary
+
+# PowerShell 脚本保持 CRLF，Windows 上更稳妥
+*.ps1 text eol=crlf

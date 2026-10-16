@@ -1,0 +1,13 @@
+# 本地运行状态与日志（每台机器不同，不入库）
+settings.json
+settings.json.tmp
+error.log
+
+# 历史版本的本地备份，交给 git 历史管理
+backups/
+
+# 构建中间产物
+bin/
+obj/
+*.pdb
+*.user

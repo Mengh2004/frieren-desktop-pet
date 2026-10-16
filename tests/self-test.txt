@@ -1,0 +1,1 @@
+PASS: embedded atlas, transparency, animation lifecycle, three sizes, default anchor, drag threshold, grab offset, click/double-click separation, canceled capture, off-screen recovery, negative monitor coordinates, old-settings compatibility, saved-position round trip.

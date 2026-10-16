@@ -1,0 +1,21 @@
+Visual direction
+Recognizable Frieren, chibi 2.2-head proportions, silver-white twin tails, long pointed ears,
+jade-green eyes, red teardrop earrings, white/antique-gold clothing and brown boots.
+Warm gray outlines, pale lavender hair shadows, quiet green-and-cream accents.
+
+References consulted on 2026-10-15
+Official character reference:
+https://frieren-anime.jp/character/chara_group1/1-1/
+Desktop-pet behavior reference (transparent pet / expression response):
+https://github.com/RYANFFY/deepseek-dafeiyu-pet
+Chibi design research:
+https://anime-store.jp/products/4571482567818-202604
+
+Asset generation
+Built-in image_gen tool with transparent_background=true.
+Six-cell 3x2 atlas, ordered idle, blink, happy, magic, sleep, read.
+The atlas is sliced in memory with WPF CroppedBitmap; no network access at runtime.
+Breathing, gentle sway, pat bounce, hearts, magic particles and sleepy z letters are animated in code.
+The role and state designs are generated artwork; motion is procedural 2D, not a Live2D rig or 3D model.
+
+Prompt and refinement are saved in assets/generation-prompt.txt.
